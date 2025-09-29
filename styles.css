@@ -1,14 +1,72 @@
+/* 
+CAFE NOIR #4C3D19
+KOMBU GREEN #354024
+MOSS GREEN #889063
+
+AZUL #1A3D63
+
+
+Primario (Bone / Base): #E3DAC9 → para fondos principales.
+Secundario (Arena suave): #C9B8A6 → para secciones o tarjetas.
+Texto principal (Gris oscuro): #2F2F2F → para buena legibilidad.
+Acento 1 (Terracota): #A35C42 → para botones o links destacados.
+Acento 2 (Azul petróleo): #355C7D → para contraste elegante.
+*/
+
+
+/* 
+========================
+1.Reset Basico
+========================
+*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Alan Sans', sans-serif;
+    font-size: 16px;
+    color: #2F2F2F;
+    background-color: #F8F5F0;
+}
+
+
+/* 
+========================
+2.Tipografiav General
+========================
+*/
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom:16px;
+    color:#354024 ;
+}
+
+
+
+
+/* 
+========================
+3.Enlace
+========================
+*/
 a {
     text-decoration: none;
     color: inherit;
 }
 
+
+/* 
+========================
+4.Listas
+========================
+*/
 ul,ol{
     list-style: none;
 }
