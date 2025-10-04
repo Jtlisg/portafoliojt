@@ -16,6 +16,16 @@ Acento 2 (Azul petróleo): #355C7D → para contraste elegante.
 
 /* 
 ========================
+0.Variables
+========================
+*/
+
+:root {
+    --space--lateral: 0 20px;
+}
+
+/* 
+========================
 1.Reset Basico
 ========================
 */
@@ -85,7 +95,7 @@ ul,ol{
 }
 
 .header__container {
-    padding: 0 20px;
+    padding: var(--space--lateral);
    
 
 }
@@ -99,7 +109,93 @@ ul,ol{
     margin-bottom: 8px;
 }
 
+.header__tagline {
+    color: #888;
+}
+/* 
+========================
+5.Nav
+========================
+*/
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.nav__item {
+    margin: 10px 0;
+    
+}
+
+.nav__item a {
+    padding: 10px;
+        
+}
+
+.nav__item a:hover {
+    cursor: pointer;
+    color: #889063;
+}
+
+.nav__item:first-child {
+    font-weight: bold;
+    color: #889063;
+}
+
+
+/* 
+========================
+6.Main
+========================
+*/
 
 
 
+.main {
+    padding: var(--space--lateral);
+}
+
+/*Section Hero */
+.hero {
+    padding: 60px 0;
+    background-color: #EAE4DA;
+}
+
+.hero__container {
+    padding: var(--space--lateral);
+    text-align: center;
+
+}
+
+.hero__title {
+    font-size: 3rem;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.hero__subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #889063;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.hero__description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #888;
+    margin-bottom: 24px;
+}
+
+/* Hero Actions */
+
+.hero__actions {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
 
