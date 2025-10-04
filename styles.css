@@ -29,7 +29,7 @@ body {
     font-family: 'Alan Sans', sans-serif;
     font-size: 16px;
     color: #2F2F2F;
-    background-color: #F8F5F0;
+    background-color: #fff;
 }
 
 
@@ -70,3 +70,36 @@ a {
 ul,ol{
     list-style: none;
 }
+
+
+/* 
+========================
+4.Header
+========================
+*/
+
+.header {
+    padding: 20px 0;
+    background-color: #F8F5F0;
+   
+}
+
+.header__container {
+    padding: 0 20px;
+   
+
+}
+
+.header__brand {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.header__name .header__tagline {
+    margin-bottom: 8px;
+}
+
+
+
+
+
